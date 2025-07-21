@@ -1,22 +1,22 @@
 [
     {
-        "text": "traffic in bangalore,\ncondiser fying to work",
+        "text": "Traffic in Bangalore,\nConsider flying to work now,\nSky is clear for all.",
         "image": "canary-flying.png"
     },
     {
-        "text": "my tunes on repeat,\nit's time for me to dj,\nhave you heard this one?",
+        "text": "My tunes on repeat,\nIt's time for me to be DJ,\nHave you heard this one?",
         "image": "canary-badassdev.png"
     },
     {
-        "text": "Sunnt day,\ntime for some golf\nlet's do one more run",
+        "text": "Sunny day is here,\nTime for some golf on the green,\nLet's do one more run.",
         "image": "canary-golf.png"
     },
     {
-        "text": "it's that time of the year",
+        "text": "It's that time of year,\nCaps are flying in the air,\nI have graduated.",
         "image": "canary-graduate.png"
     },
     {
-        "text": "hungry?,\nlet's have some hot food served",
+        "text": "Feeling hungry now,\nLet's have some hot food served up,\nIt is time to eat.",
         "image": "canary-food.png"
     }
 ]
