@@ -1,6 +1,6 @@
 {
   "name": "HarnessCore DevContainer",
-  "image": "us.gcr.io/platform-205701/harness/devx-platform/harness-devcontainer:latest",
+  "image": "mcr.microsoft.com/devcontainers/base:dev-ubuntu-24.04",
   "customizations": {
     "jetbrains": {
       "plugins": ["org.jetbrains.bazel", "org.jetbrains.bsp"]
