@@ -1,63 +1,6 @@
 {
-  "name": "HarnessCore DevContainer",
-  "image": "mcr.microsoft.com/devcontainers/base:dev-ubuntu-24.04",
-  "customizations": {
-    "jetbrains": {
-      "plugins": ["org.jetbrains.bazel", "org.jetbrains.bsp"]
-    },
-    "vscode": {
-      "settings": {
-        "remote.autoForwardPorts": false
-      },
-      "extensions": [
-        "redhat.java",
-        "vscjava.vscode-java-pack",
-        "ms-vscode-remote.remote-containers",
-        "bazelbuild.vscode-bazel",
-        "eamodio.gitlens"
-      ]
-    }
-  },
-  "workspaceFolder": "/root/harness-core",
-  "mounts": [
-    "source=${localEnv:HOME}/emptydir,target=/root/.bazel_runner,type=volume,consistency=cached"
-  ],
-  "runArgs": [
-    "--name",
-    "harness-core-devcontainer",
-    "--workdir",
-    "/root/harness-core",
-    "-p",
-    "5005:5005",
-    "-p",
-    "5006:5006",
-    "-p",
-    "5007:5007",
-    "-p",
-    "5008:5008",
-    "-p",
-    "5009:5009",
-    "-p",
-    "5010:5010",
-    "-p",
-    "5011:5011",
-    "-p",
-    "5012:5012",
-    "-p",
-    "7090:7090",
-    "-p",
-    "3457:3457",
-    "-p",
-    "9005:9005",
-    "-p",
-    "9006:9006",
-    "-p",
-    "8188:8188",
-    "-p",
-    "12001:12001",
-    "-p",
-    "12003:12003"
-  ],
-  "postCreateCommand": "./scripts/bazel/generate_credentials.sh && echo \"fs.inotify.max_user_watches = 1048576\" >> /etc/sysctl.conf && echo ${containerEnv:HOME} > ${containerEnv:HOME}/home_path.txt && echo \"export HOST_HOME=$(cat ${containerEnv:HOME}/home_path.txt)\" >> ~/.bashrc && echo \"export HOST_HOME=$(cat ${containerEnv:HOME}/home_path.txt)\" >> ~/.zshrc",
-  "remoteUser": "root"
+ 
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "npm install"
 }
