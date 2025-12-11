@@ -2,5 +2,14 @@
  
   "name": "Node.js",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
-  "postCreateCommand": "npm install"
+  "postCreateCommand": "npm install",
+"customizations": {
+		"harnessGitspaces": {
+      "ai_agent": {
+        "type": "claude-code",
+        "auth": "API-Key",
+        "secret_ref": "ANTHROPIC_API_KEY"
+      }
+    }
+	}
 }
