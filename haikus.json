@@ -1,22 +1,22 @@
 [
     {
         "text": "traffic in bangalore,\nconsider flying to work",
-        "image": "canary-flying.png"
+        "image": "elephant.png"
     },
     {
         "text": "my tunes on repeat,\nit's time for me to dj,\nhave you heard this one?",
-        "image": "canary-badassdev.png"
+        "image": "elephant.png"
     },
     {
         "text": "Sunny day,\ntime for some golf\nlet's do one more run",
-        "image": "canary-golf.png"
+        "image": "elephant.png"
     },
     {
         "text": "it's that time of the year",
-        "image": "canary-graduate.png"
+        "image": "elephant.png"
     },
     {
         "text": "hungry?,\nlet's have some hot food served",
-        "image": "canary-food.png"
+        "image": "elephant.png"
     }
 ]
